@@ -1,14 +1,13 @@
 
-import { MantineProvider } from '@mantine/core'
 import './App.css'
 import Header from './components/header'
+import Home from './components/home'
 
 export default function App() {
   return (
     <>
-      <MantineProvider>
-        <Header />
-      </MantineProvider>
+      <Header />
+      <Home />
     </>
   )
 }

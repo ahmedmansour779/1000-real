@@ -1,20 +1,28 @@
-import color from "../../style/config";
+import { motion } from "framer-motion";
+import { HeaderFlex, HeaderWrapper } from "../../style/header";
 
 export default function Header() {
     return (
-        <div style={{ backgroundColor: color.primary }}>
-            <div>
-                <div>
-                    <div>
-                        <span>1000</span>
-                        <span>ريال</span>
-                    </div>
-                    <div>
-                        <p>حولنا</p>
-                        <p>خدماتنا</p>
-                    </div>
+        <HeaderWrapper>
+            <motion.div
+                animate={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.5 }}
+            >
+                <div className="container">
+                    <HeaderFlex>
+                        <HeaderFlex >
+                            <span>1000</span>
+                            <span>ريال</span>
+                        </HeaderFlex>
+                        <HeaderFlex gap>
+                            <p>حولنا</p>
+                            <p>خدماتنا</p>
+                        </HeaderFlex>
+                    </HeaderFlex>
                 </div>
-            </div>
-        </div>
+            </motion.div>
+        </HeaderWrapper>
     )
 }
