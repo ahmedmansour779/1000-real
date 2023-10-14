@@ -5,8 +5,6 @@ export const AboutUsWrapper = styled.div`
     background-color: ${color.primary};
     color: ${color.white};
     padding: ${padding.padding} 0;
-    padding-top: 9vh;
-
     padding-top: ${props => props.padding && "11vh"};
     background-color: ${props => props.background && `${color.white}`};
     color: ${props => props.colorText && `${color.primary}`};

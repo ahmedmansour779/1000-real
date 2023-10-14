@@ -20,7 +20,16 @@ export default function App() {
               <Home />
               <AboutUs />
               <MantineProvider>
-                <Service paddingTop={false} />
+                <Service />
+              </MantineProvider>
+            </>
+          } />
+          <Route path='*' element={
+            <>
+              <Home />
+              <AboutUs />
+              <MantineProvider>
+                <Service />
               </MantineProvider>
             </>
           } />
