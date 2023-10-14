@@ -26,6 +26,7 @@ export const Model = styled.div`
     background: ${color.primary};
     padding: 1rem;
     border-radius: 10px;
+    width: 70%;
     button {
         border: none;
         margin-bottom: 2rem;
@@ -33,6 +34,7 @@ export const Model = styled.div`
         transition: 0.3s all ease-in-out;
         border: none;
         background: transparent;
+        cursor: pointer;
         &:hover {
             color: #000;
         }
@@ -43,7 +45,7 @@ export const Model = styled.div`
         margin-bottom: 3rem;
     }
     p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         line-height: 1.6rem;
         padding: 0 2rem 0.5rem 2rem;
         word-spacing: 0.3rem;

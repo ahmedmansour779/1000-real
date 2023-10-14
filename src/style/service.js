@@ -19,7 +19,7 @@ export const Header = styled.div`
     align-items: end;
     justify-content: center;
     gap: 0.5rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: ${color.primary};
 `
 
