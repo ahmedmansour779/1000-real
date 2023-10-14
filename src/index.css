@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@1,300&family=Roboto:wght@300&display=swap');
 
+:root {
+  --primary-color: #618264;
+  --secondary-color: #79AC78;
+  --third-color: #B0D9B1;
+  --fourth-color: #D0E7D2;
+  --white-color: #fff;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -17,6 +25,24 @@
   -moz-filter: none !important;
   -o-filter: none !important;
   -ms-filter: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 0.75rem;
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+::selection {
+  background-color: var(--secondary-color);
 }
 
 @media (max-width: 576px) {

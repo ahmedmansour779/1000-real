@@ -6,4 +6,8 @@ const color = {
     white: "#fff",
 }
 
+export const padding = {
+    padding: "2rem"
+}
+
 export default color;
