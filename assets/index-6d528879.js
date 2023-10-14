@@ -194,6 +194,7 @@ Error generating stack: `+o.message+`
     background: ${oe.primary};
     padding: 1rem;
     border-radius: 10px;
+    width: 70%;
     button {
         border: none;
         margin-bottom: 2rem;
@@ -201,6 +202,7 @@ Error generating stack: `+o.message+`
         transition: 0.3s all ease-in-out;
         border: none;
         background: transparent;
+        cursor: pointer;
         &:hover {
             color: #000;
         }
@@ -211,7 +213,7 @@ Error generating stack: `+o.message+`
         margin-bottom: 3rem;
     }
     p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         line-height: 1.6rem;
         padding: 0 2rem 0.5rem 2rem;
         word-spacing: 0.3rem;
@@ -228,7 +230,7 @@ Error generating stack: `+o.message+`
     align-items: end;
     justify-content: center;
     gap: 0.5rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: ${oe.primary};
 `,e3=xe.div`
     overflow: hidden;
