@@ -104,6 +104,7 @@ Error generating stack: `+o.message+`
     align-items: center;
     text-align: center;
     gap: 1rem;
+    margin-top: auto;
 `,G$=xe.div`
     display: flex;
     gap: 0.5rem;
