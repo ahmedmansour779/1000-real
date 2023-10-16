@@ -15,6 +15,7 @@ export const FooterContainer = styled.div.attrs((props) => ({
     align-items: center;
     text-align: center;
     gap: 1rem;
+    margin-top: auto;
 `
 
 export const IconsFooter = styled.div`
